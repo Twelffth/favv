@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+img {
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+hr {
+    height: 6px;
+    background-color: #FAFAFA;
+    width: 200px;
+    margin: 8px auto;
+}
+
+h1 {
+    text-shadow: 2px 3px black;
+}
+
+h2 {
+    text-shadow: 2px 3px black;
+}
+
+p {
+    text-shadow: 2px 1px black;
+}
+
+h3 {
+    text-shadow: 2px 1px black;
+}
+
+.menu {
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+    text-align:center;
+    text-decoration:none;
+    list-style: none;
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    right: 370px;
+    z-index: 10;
+    color: white;
+}
+
+.link {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-left: -10px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+.link:hover {
+    background: linear-gradient(90deg, rgba(164, 189, 241, 1) 0%, rgba(217, 104, 255, 1) 50%, rgba(237, 192, 221, 1) 100%);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    color:white;
+}
+
+.section1 {
+    background: linear-gradient(90deg, #fbffd5 0%, #dddddd 50%, #f1d5a0 100%);
+}
+
+.section2 {
+    background: linear-gradient(#726780 0%, #5d5566 100%);
+}
+
+#Favorite {
+    background: linear-gradient(90deg, #68a142 0%, #b4daa2 50%, #79d36d 100%);
+}
+
+#Videos {
+    background: linear-gradient(90deg, #f0cee0 0%, #dfcee2 50%, #c48de4 100%);
+}
+
+#Inspiration {
+    background: linear-gradient(90deg, #aa7c95 0%, #8d6694 50%, #8b52ac 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Articles {
+    background: linear-gradient(90deg, #c7a5b6 0%, #b79cbb 50%, #9a62bb 100%);
+}
+img{
+    transition:transform .2s;
+}
+img:hover{
+    transform:scale(0.9);
+    border-color:#292828;
+    border-width:5px;
+    border-style:dotted;
+}
+#Contact{
+    background: linear-gradient(90deg, #d8fdfd 0%, #98c6db 50%, #91aed4 100%);
+}
+a{
+    text-decoration:none;
+}
